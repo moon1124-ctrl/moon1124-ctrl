@@ -63,7 +63,7 @@ I build fast, intuitive, and visually polished web applications end‑to‑end, 
   - Secure signature verification: Uses HMAC with a shared WEBHOOK_SECRET and crypto.timingSafeEqual to validate the x-hub-signature-256 header before accepting requests.
   - Infrastructure automation: Designed to be deployed and configured with Pulumi, provisioning the necessary cloud resources and wiring GitHub webhooks to your receiver.
   - Dashboard visualization: Intended to feed GitHub repository metrics into Grafana so you can build panels for pushes, PRs, issues, contributors, and other activity trends.
-  - Local-friendly workflow: Can run the webhook receiver locally on port 4000, then expose it securely via a tunnel (e.g., Cloudflare Tunnel or similar) for GitHub to reach during development.
+  - Local-friendly workflow: Can run the webhook receiver locally on port 4000, then expose it securely via a tunnel for GitHub to reach during development.
 - **Links**: [Code](https://github.com/dile-pixel/real-time-metric-dashboard.git)
 
 ### [Project 3] - Creative Collaboration Platform
@@ -74,7 +74,7 @@ I build fast, intuitive, and visually polished web applications end‑to‑end, 
   - Animation / icons: Framer Motion for page/element animations, Lucide React for iconography
   - Tooling / quality: ESLint 9 with eslint-config-next for linting, TypeScript 5 for type safety
   - Package / scripts: npm scripts (npm run dev, npm run build, npm start, npm run lint) for local dev and production builds
-  - Deployment: Designed to run as a standard Next.js app (e.g., Vercel or Node.js host)
+  - Deployment: Designed to run as a standard Next.js app
 
 - **Highlights**:
   - End‑to‑end creator experience: Screens for onboarding, profile setup (bio, genres, skills, portfolio, social links), and managing creative works, tailored to music and creative professionals.

@@ -50,12 +50,21 @@ I build fast, intuitive, and visually polished web applications end‑to‑end, 
   - Collaboration views: Each team sees and manages only its own tasks; dashboard-style pages for tasks, team, profile, etc.
 - **Links**: [Code](https://github.com/dile-pixel/collaborative_app)
 
-### [Project Name 2] – [e.g. “Analytics dashboard for real‑time metrics”]
-- **Stack**: [...]
+### [Project 2] – Analytics dashboard for real‑time metrics”
+- **Stack**:
+  - Language / Runtime: Node.js (CommonJS)
+  - Backend framework: Express (with body-parser)
+  - Config / secrets: dotenv (environment variables, webhook secret, port)
+  - Infrastructure as Code: Pulumi (TypeScript project implied from README)
+  - Metrics / visualization: Grafana (dashboard for GitHub activity)
+  - Dev tooling: npm scripts (npm start for the webhook receiver)
 - **Highlights**:
-  - Built responsive, data‑heavy dashboards with performant charts and virtualized lists.
-  - Optimized rendering and network requests, reducing bundle size and improving TTFB.
-- **Links**: [Live Demo](https://...) · [Code](https://github.com/...)
+  - GitHub event ingestion: A small webhook receiver (/github-webhook) that accepts GitHub Webhook POSTs, parses JSON bodies, and logs event payloads for further processing.
+  - Secure signature verification: Uses HMAC with a shared WEBHOOK_SECRET and crypto.timingSafeEqual to validate the x-hub-signature-256 header before accepting requests.
+  - Infrastructure automation: Designed to be deployed and configured with Pulumi, provisioning the necessary cloud resources and wiring GitHub webhooks to your receiver.
+  - Dashboard visualization: Intended to feed GitHub repository metrics into Grafana so you can build panels for pushes, PRs, issues, contributors, and other activity trends.
+  - Local-friendly workflow: Can run the webhook receiver locally on port 4000, then expose it securely via a tunnel (e.g., Cloudflare Tunnel or similar) for GitHub to reach during development.
+- **Links**: [Code](https://github.com/...)
 
 ### [Project Name 3]
 - **Stack**: [...]

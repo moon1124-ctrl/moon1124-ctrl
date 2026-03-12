@@ -100,16 +100,6 @@ I build fast, intuitive, and visually polished web applications end‑to‑end, 
 
 ---
 
-## 🧠 Education
-
-- **Concordia University** – *Master’s Degree, Mechanical Engineering*  
-  **Sep 2015 – Nov 2017**
-
-- **China Agricultural University** – *Bachelor of Engineering, Mechanical and Electrical Engineering*  
-  **Sep 2011 – Jun 2015**
-
----
-
 ## 🌱 Currently Focusing On
 
 - Deepening expertise in **advanced React/Next.js patterns** and **frontend architecture**

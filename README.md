@@ -117,12 +117,3 @@ I build fast, intuitive, and visually polished web applications end‑to‑end, 
 - Exploring **server components, microfrontends, WebAssembly, etc**
 
 ---
-
-## 🤝 Let’s Connect
-
-- **GitHub**: [github.com/dile-pixel](https://github.com/dile-pixel)
-- **LinkedIn**: [Di Le](https://www.linkedin.com/in/di-le-b69206291/)
-- **Portfolio**: [your‑portfolio.com](https://your-portfolio.com)
-- **Email**: [watermail731@gmail.com]
-
----

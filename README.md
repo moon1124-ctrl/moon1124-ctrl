@@ -64,7 +64,7 @@ I build fast, intuitive, and visually polished web applications end‑to‑end, 
   - Infrastructure automation: Designed to be deployed and configured with Pulumi, provisioning the necessary cloud resources and wiring GitHub webhooks to your receiver.
   - Dashboard visualization: Intended to feed GitHub repository metrics into Grafana so you can build panels for pushes, PRs, issues, contributors, and other activity trends.
   - Local-friendly workflow: Can run the webhook receiver locally on port 4000, then expose it securely via a tunnel (e.g., Cloudflare Tunnel or similar) for GitHub to reach during development.
-- **Links**: [Code](https://github.com/...)
+- **Links**: [Code](https://github.com/dile-pixel/real-time-metric-dashboard.git)
 
 ### [Project Name 3]
 - **Stack**: [...]

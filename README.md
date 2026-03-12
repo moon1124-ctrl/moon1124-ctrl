@@ -48,7 +48,7 @@ I build fast, intuitive, and visually polished web applications end‑to‑end, 
   - User & team flows: Sign in / sign up, basic profile, create or join a team.
   - Task management: Create tasks with details (title, description, due date, priority), assign them to team members, mark them in different states.
   - Collaboration views: Each team sees and manages only its own tasks; dashboard-style pages for tasks, team, profile, etc.
-- **Links**: [Code](https://github.com/...)
+- **Links**: [Code](https://github.com/dile-pixel/collaborative_app)
 
 ### [Project Name 2] – [e.g. “Analytics dashboard for real‑time metrics”]
 - **Stack**: [...]

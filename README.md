@@ -1,6 +1,6 @@
 ## 👋 Hello everyone,
 
-**Full‑Stack Developer • Frontend‑Focused • Crafting clean, scalable web experiences**
+**Full‑Stack Developer • Frontend‑Focused • Crafting clean, scalable experiences**
 
 I build fast, intuitive, and visually polished web applications end‑to‑end, with a strong focus on frontend architecture, design systems, and DX. I love turning complex requirements into elegant UIs, collaborating closely with designers/product, and writing code that is easy to maintain and extend.
 
